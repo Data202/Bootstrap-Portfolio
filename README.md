@@ -1,7 +1,8 @@
 # Bootstrap-Portfolio
 Porfolio built using HTML,CSS and Bootstrap. 
-Porfolio was an assignment, I added my own design as to add life to my code.
+Porfolio was an assignment, I added my own design as to add life to my code. This code is to help me build my profiler as a developer. Your code speaks for you. 
 
+Url Link for depolyment : https://data202.github.io/Bootstrap-Portfolio/
 
 
 
