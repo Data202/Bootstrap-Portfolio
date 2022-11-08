@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--my linked CSS -->
     <link rel="stylesheet" href="style.css">
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -22,26 +25,32 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/Data202" target="_blank">Github Profile</a>
+                  <a class="nav-link" href="#work">My Work</a>
                 </li>
-                <li class="nav-list">
-                    <a class="nav-link" href="https://www.linkedin.com/in/dayo-adekunle-b02a1aa4/">Linkedin</a>
-                  </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="#Skills">Skills Gained</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#About"> About Me </a>
+                </li>
+
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Dropdown
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./Dayo Adekunle finance copy.html">My CV</a>
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/dayo-adekunle-b02a1aa4/">Linkedin</a>
+                    <a class="dropdown-item" href="./Dayo Adekunle finance copy.html" target="_blank">My CV</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/dayo-adekunle-b02a1aa4/" target="_blank">Linkedin</a>
                     <a class="dropdown-item" href="https://github.com/Data202" target="_blank">Github Profile</a>
-                    <a class="dropdown-item" href="https://www.instagram.com/parirdesign/?hl=en">Design Page (parirdesign)</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/parirdesign/?hl=en" target="_blank">Design Page (parirdesign)</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
@@ -58,53 +67,110 @@
 <hero>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-              <h1 class="display-4">Dayo Adekunle</h1>
-            <div class="mypicture"> <img src="../" alt=""></div>
-              <p class="lead">The beginning of my front-end developer journey.</p>
+              <img class="bowl" height="200px" src="./images/IMG_7048.jpeg" alt="Looking good" aria-label="looking dapper">
+              <h1 class="display-4" >Dayo Adekunle</h1>
+              <p class="lead">The beginning of my front-end developer journey............................................................................................oh did I say the begining there is never an end!</p>
             </div>
           </div>
 </hero>
 
-<!-- It should be styled in css by didnt know how to center on css or css code was not responsive -->
-<center> 
-    <work class="workstyle">
-        <h2> My Work </h2>
-        <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-          
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://placehold.co/900x550" alt="Los Angeles">
-              </div>
-              <div class="carousel-item">
-                <img src="https://placehold.co/900x550" alt="Chicago">
-              </div>
-              <div class="carousel-item">
-                <img src="https://placehold.co/900x550" alt="New York">
+    <work class="workstyle" id="work">
+      <h2 class="worklife"> My Work </h2>
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="./images/02-portfolio-1.jpg" class="card-img-top" alt="Led Wall">
+                <div class="card-body">
+                  <h5 class="card-title">Led Wall</h5>
+                  <p class="card-text">Some quick example of what will be created soon.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-          </div>
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="./images/02-portfolio-2.jpg" class="card-img-top" alt="Calculator">
+                <div class="card-body">
+                  <h5 class="card-title">Calculator</h5>
+                  <p class="card-text">Some quick example of what will be created soon.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="./images/02-portfolio-3.jpg" class="card-img-top" alt="Blend of colors">
+                <div class="card-body">
+                  <h5 class="card-title">Blend of Colors</h5>
+                  <p class="card-text">Some quick example of what will be created soon.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
+              <div class="card">
+                <img src="./images/Screenshot 2022-11-08 at 02.52.02.png" class="card-img-top" alt="Mini Me">
+                <div class="card-body">
+                  <h5 class="card-title">Mini Me</h5>
+                  <p class="card-text">Some quick example of mini me created using HTML and CSS.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div><!-- Close row -->
+        </section>
     </work>
-</center>
+
+<section>
+  <div> 
+  <h3 class="game" id="Skills">Skills Gained</h3>
+  </div>
+  <ul>
+    <li>Git and GitHub</li>
+    <li>HTML and CSS</li>
+    <li>User experience design</li>
+    <li>JavaScript</li>
+    <li>Third-party APIs (such as jQuery and Bootstrap)</li>
+    <li>Server-side APIs, AJAX, and JSON</li>
+    <li>Agile software development methodology</li>
+    <li>Node.js</li>
+    <li>Test-driven development</li>
+    <li>Object-oriented programming (OOP)</li>
+    <li>React</li>
+    <li>Behavior-driven development</li>
+    <li>Deployment</li>
+    <li>Agile software development methodology</li>
+  </ul>
+</section>
+
+<section class="donald">
+  <h4 id="About">About Me</h4>
+  <div class="contact">
+    <address>
+      <!-- mobile link disabled -->
+      <a href="/" onclick="return false;" aria-label="Mobile:+447984578921">Mobile:+447984578921</a> 
+      <a href="https://github.com/Data202/Bootstrap-Portfolio.git" aria-label="Bootstrap-Portfolio"> Bootstrap-Portfolio</a>
+      <a href="https://www.linkedin.com/in/dayo-adekunle-b02a1aa4/" aria-label="Linkedin Profile">Linkedin</a>
+      <a href="https://www.instagram.com/parirdesign/?hl=en"aria-label="Parirdesign">Parirdesign</a>
+    </address>
+  </div>
+</section>
+
+
+<footer>&copy Wayne Manor</footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
-<footer>
-    &copy Wayne Manor
-</footer>
+
 </html>

@@ -1,0 +1,100 @@
+.container{
+    max-width: 1350px;
+}
+.bowl:hover{
+    transform: scale(1.7);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.worklife{
+    padding-right: 4px;
+}
+
+.nav-link::after {
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fec400;
+    transition: 0.4s
+}
+
+.nav-link:hover::after {
+    width: 100%
+}
+
+#Skills{
+    padding-top: 20px;
+    padding-left: 28px;
+    text-decoration: underline;
+}
+
+.donald{
+    padding: 2px;
+    border: 25px solid darkblue;
+}
+#About {
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact address a {
+    padding: 7px;
+    font-size: 20px;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+  }
+  
+  
+  .contact address a {
+    background-size: 100% 88%;
+  }
+  
+  .contact address a:link {
+    color: green;
+  }
+  
+  .contact address a:visited {
+    color: rgb(13, 142, 217);
+  }
+  
+  .contact address a:hover {
+    color: red;
+  }
+  
+  .contact address a:active {
+    color: yellow;
+  }
+
+.navbar-toggler:hover{
+    transition: 0.4s;
+    background-color: rgb(78, 28, 52);
+    border: 2px solid darkblue;
+    color: bisque;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.4s;
+    background-color: rgb(48, 150, 62);
+    border: 2px solid darkblue;
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    color: green;
+}
